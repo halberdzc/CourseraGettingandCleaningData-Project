@@ -23,7 +23,7 @@ names(x.test) <- features$V2
 names(y.test) <- "activity_id"
 names(subject.test) <- "subject"
 
-#combine seperate date sets to get the full training and test set
+#combine seperate data sets to get the full training and test sets
 
 train.full <- cbind(x.train, y.train, subject.train)
 test.full <- cbind(x.test, y.test, subject.test)
